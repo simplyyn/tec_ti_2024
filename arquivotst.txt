@@ -31,6 +31,37 @@
    8.
    1.
 
+//EX 2 
+
+for i=1:7
+    v(i)=((i+1)/2)^2
+end
+printf("v=")
+disp(v)
+
+//(a)
+printf("v(7) =.")
+disp(v(7))
+
+//(b)
+printf("v(2)v(6) =.")
+disp(v(2)*v(6))
+
+//(c)
+printf("v(5)/v(3)=.")
+disp(v(5)/v(3))
+
+//(d)
+for i=1:4
+p=1;
+    p=p*v(2*i-1);
+    produto=p;
+    p= v(2*i-1)
+end
+printf("v(1)v(3)v(5)v(7)")
+disp(produto)
+
+
 --> u + v
  ans  =
 
